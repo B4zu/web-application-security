@@ -1,0 +1,45 @@
+Installing Rails and PHP
+
+Ruby on Rails
+
+You will need to have a recent version of Ruby, like 2.5.0 or 2.5.1 and Rails 5.2 installed on your development environment in order to be able to follow along with this course.
+
+We recommend that you use either a Mac, Linux, or cloud-based IDE for your development environment for this course.
+
+For Mac, please make sure that you are not using the default system Ruby that comes already installed on the Mac 
+
+https://robots.thoughtbot.com/psa-do-not-use-system-ruby
+
+ The install instructions for Ruby on Rails are available here http://railsapps.github.io/installrubyonrails-mac.html
+
+For Ubuntu Linux, the install instructions for Ruby on Rails are available here http://railsapps.github.io/installrubyonrails-ubuntu.html
+
+If you are on Windows, we recommend you try out a cloud based IDE such as Cloud 9 (https://aws.amazon.com/cloud9/). Please contact the instructors if you are interested in signing up for an account.
+
+If you want to install Ruby on Rails locally on Windows (which we don't recommend) you can try using the following instructions http://blog.teamtreehouse.com/installing-rails-5-windows
+
+You can run the Rails server with
+
+rails s
+
+from the command line in the root directory of your Rails app after running bundle install
+
+PHP
+
+Mac OSX already comes with PHP http://php.net/manual/en/install.macosx.bundled.php
+
+Windows http://php.net/manual/en/install.windows.php
+
+Unix/Linux http://php.net/manual/en/install.unix.php
+
+
+
+To start the PHP development server running locally, use this command
+
+php -S localhost:8000
+
+from the root directory of the application
+
+Other
+
+I also recommend a modern web browser such as Google Chrome to preview your applications from http://localhost:8000 for PHP and http://localhost:3000 for Ruby on Rails
